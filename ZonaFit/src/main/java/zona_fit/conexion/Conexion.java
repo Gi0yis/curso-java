@@ -9,7 +9,7 @@ public class Conexion {
         var baseDatos = "zona_fit_db";
         var url = "jdbc:mysql://localhost:3306/" + baseDatos;
         var usuario = "root";
-        var password = "Gi0yis0418&&";
+        var password = "password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // Clase de conexion
